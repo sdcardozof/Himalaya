@@ -1,7 +1,7 @@
 # PRD - Himalaya HVAC Website
 
 ## Problema Original
-Crear un sitio web moderno, profesional y responsivo para Himalaya HVAC, una empresa nueva e innovadora de soluciones de climatización.
+Crear un sitio web moderno, profesional y responsivo para Himalaya HVAC, enfocado en **consultoría y diseño/rediseño, evaluación y diagnóstico** de sistemas HVAC. La empresa NO ofrece instalación ni mantenimiento por ahora.
 
 ## Arquitectura del Sistema
 - **Frontend**: React 19 con React Router
@@ -18,36 +18,32 @@ Crear un sitio web moderno, profesional y responsivo para Himalaya HVAC, una emp
 - Gris claro: #F4F6F8
 
 ## User Personas
-1. **Cliente Residencial**: Propietario de vivienda buscando instalación o mantenimiento de sistemas HVAC
-2. **Cliente Comercial**: Gerente/Director de empresa necesitando soluciones HVAC para oficinas/comercios
-3. **Cliente Industrial**: Responsable de planta industrial requiriendo sistemas de ventilación especializados
+1. **Cliente Residencial**: Propietario de vivienda buscando consultoría o diseño de sistemas HVAC eficientes
+2. **Cliente Comercial**: Gerente/Director de empresa necesitando evaluación o rediseño de sistemas HVAC
+3. **Cliente Industrial**: Responsable de planta industrial requiriendo diagnóstico y diseño de ventilación especializada
+4. **Arquitecto/Constructor**: Profesional necesitando diseños técnicos para proyectos nuevos
 
 ## Features Implementadas ✅ (Fecha: 16 Feb 2026)
 
-### Frontend con Mock Data
+### Frontend con Mock Data (Actualizado 16 Feb 2026)
 - ✅ Navbar sticky con logo personalizado, menú de navegación y CTA
 - ✅ Página Home con:
-  - Hero section con headline impactante y stats
-  - Sección de servicios destacados (6 servicios)
-  - Sección "Por qué elegirnos" (4 razones)
-  - Testimonios de clientes (3 testimonios)
+  - Hero section enfocado en consultoría y diseño
+  - Sección de servicios destacados (6 servicios de consultoría/diseño)
+  - Sección "Por qué elegirnos" (4 razones enfocadas en ingeniería)
+  - Testimonios de clientes (3 testimonios sobre consultoría)
   - CTA section final
-- ✅ Página Servicios con grid de 6 servicios detallados
-- ✅ Página Sobre Nosotros con:
-  - Historia de la empresa
-  - Misión y Visión
-  - Valores corporativos
-  - Sección de equipo
-- ✅ Página Proyectos con:
-  - Filtros por categoría (Todos/Residencial/Comercial/Industrial)
-  - Grid de 6 proyectos
-  - Stats section
-- ✅ Página Contacto con:
-  - Formulario de cotización (mock)
-  - Información de contacto
-  - Mapa de ubicación
-  - FAQ section con Accordion
-- ✅ Footer completo con links, contacto y redes sociales
+- ✅ Página Servicios con:
+  - Consultoría HVAC
+  - Diseño de Sistemas
+  - Evaluación de Sistemas Existentes
+  - Diagnóstico Técnico
+  - Rediseño y Optimización
+  - Análisis de Calidad de Aire
+- ✅ Página Sobre Nosotros actualizada con enfoque en consultoría e ingeniería
+- ✅ Página Proyectos con portfolio de diseños y evaluaciones
+- ✅ Página Contacto con formulario adaptado a servicios de consultoría
+- ✅ Footer completo actualizado con servicios correctos
 - ✅ WhatsApp button flotante con 2 números (3150290119, 3058131103)
 - ✅ Diseño responsivo mobile-first
 - ✅ Animaciones y transiciones suaves
