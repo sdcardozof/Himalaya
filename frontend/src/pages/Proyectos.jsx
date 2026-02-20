@@ -35,7 +35,7 @@ const Proyectos = () => {
               Nuestros Proyectos
             </h1>
             <p className="text-xl text-gray-600">
-              Instalaciones de excelencia que demuestran nuestro compromiso con la calidad
+              Diseños y evaluaciones de excelencia que demuestran nuestro compromiso con la calidad
             </p>
           </div>
         </div>
@@ -156,7 +156,7 @@ const Proyectos = () => {
             ¿Listo para su Próximo Proyecto?
           </h2>
           <p className="text-xl text-gray-600 mb-8">
-            Contáctenos y descubra cómo podemos transformar su espacio con soluciones de climatización de clase mundial
+            Contáctenos y descubra cómo podemos diseñar la solución HVAC perfecta para su espacio
           </p>
           <Button
             asChild

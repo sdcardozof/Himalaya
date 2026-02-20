@@ -87,7 +87,7 @@ const SobreNosotros = () => {
                   Nuestra Misión
                 </h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Proporcionar soluciones de climatización de clase mundial que mejoren la calidad de vida y optimicen el consumo energético, basándonos en ingeniería de precisión y un servicio al cliente excepcional.
+                  Proporcionar consultoría y diseño de sistemas HVAC de clase mundial que mejoren la eficiencia operativa y optimicen el consumo energético, basándonos en ingeniería de precisión y un servicio al cliente excepcional.
                 </p>
               </CardContent>
             </Card>
@@ -101,7 +101,7 @@ const SobreNosotros = () => {
                   Nuestra Visión
                 </h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Ser la empresa líder en soluciones HVAC en Colombia, reconocida por nuestra innovación tecnológica, compromiso con la sostenibilidad y excelencia en cada proyecto que realizamos.
+                  Ser la empresa líder en consultoría y diseño HVAC en Colombia, reconocida por nuestra innovación técnica, compromiso con la sostenibilidad y excelencia en cada proyecto que realizamos.
                 </p>
               </CardContent>
             </Card>
@@ -158,7 +158,7 @@ const SobreNosotros = () => {
                 Confiabilidad
               </h3>
               <p className="text-gray-600">
-                Cumplimos nuestros compromisos y garantizamos la calidad en cada instalación y servicio.
+                Cumplimos nuestros compromisos y garantizamos la calidad técnica en cada diseño y consultoría.
               </p>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
@@ -166,7 +166,7 @@ const SobreNosotros = () => {
                 Innovación
               </h3>
               <p className="text-gray-600">
-                Adoptamos las últimas tecnologías para ofrecer soluciones eficientes y sostenibles.
+                Adoptamos las últimas metodologías y tecnologías para ofrecer diseños eficientes y sostenibles.
               </p>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
