@@ -87,7 +87,7 @@ const Contacto = () => {
             {/* Contact Form */}
             <div className="bg-white rounded-3xl shadow-2xl p-8 border-2 border-gray-100">
               <h2 className="text-3xl font-bold text-[#0A2540] mb-6">
-                Solicitar Cotización
+                Solicitar Consultoría
               </h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
@@ -150,12 +150,12 @@ const Contacto = () => {
                     className="mt-2 w-full px-3 py-2 border-2 border-gray-200 rounded-lg focus:border-[#4FC3F7] focus:outline-none transition-colors bg-white"
                   >
                     <option value="">Seleccionar servicio</option>
-                    <option value="instalacion">Instalación HVAC</option>
-                    <option value="mantenimiento">Mantenimiento Preventivo</option>
-                    <option value="reparacion">Reparaciones de Emergencia</option>
-                    <option value="ventilacion">Diseño de Ventilación</option>
-                    <option value="calidad-aire">Calidad de Aire</option>
-                    <option value="comercial">HVAC Comercial</option>
+                    <option value="consultoria">Consultoría HVAC</option>
+                    <option value="diseno">Diseño de Sistemas</option>
+                    <option value="evaluacion">Evaluación de Sistema Existente</option>
+                    <option value="diagnostico">Diagnóstico Técnico</option>
+                    <option value="rediseno">Rediseño y Optimización</option>
+                    <option value="calidad-aire">Análisis de Calidad de Aire</option>
                   </select>
                 </div>
 
@@ -199,7 +199,7 @@ const Contacto = () => {
                   Información de Contacto
                 </h2>
                 <p className="text-lg text-gray-600 mb-8">
-                  Estamos disponibles para atender todas tus consultas y emergencias
+                  Estamos disponibles para atender todas tus consultas técnicas
                 </p>
               </div>
 
@@ -266,7 +266,7 @@ const Contacto = () => {
                     </h3>
                     <p className="text-gray-600 mb-1">{companyInfo.hours}</p>
                     <p className="text-[#4FC3F7] font-semibold">
-                      {companyInfo.emergencyHours}
+                      Consultas técnicas disponibles
                     </p>
                   </div>
                 </div>
