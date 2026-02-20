@@ -156,23 +156,23 @@ export const faqs = [
 export const whyChooseUs = [
   {
     icon: "BadgeCheck",
-    title: "Técnicos Certificados",
-    description: "Personal altamente capacitado con certificaciones internacionales"
+    title: "Ingenieros Certificados",
+    description: "Equipo de ingenieros especializados con certificaciones internacionales"
   },
   {
-    icon: "Clock",
-    title: "Respuesta Rápida",
-    description: "Servicio de emergencia 24/7 con tiempos de respuesta garantizados"
+    icon: "Target",
+    title: "Diseños Precisos",
+    description: "Cálculos exactos y diseños optimizados basados en normativas vigentes"
   },
   {
     icon: "Leaf",
     title: "Eficiencia Energética",
-    description: "Soluciones eco-amigables que reducen costos operativos"
+    description: "Enfoque en soluciones sostenibles que reducen costos operativos"
   },
   {
-    icon: "Shield",
-    title: "Equipos Modernos",
-    description: "Trabajamos con las marcas y tecnologías más avanzadas"
+    icon: "FileText",
+    title: "Documentación Completa",
+    description: "Entregamos toda la documentación técnica lista para implementación"
   }
 ];
 

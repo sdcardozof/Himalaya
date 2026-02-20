@@ -41,7 +41,7 @@ const Home = () => {
               </h1>
 
               <p className="text-xl text-gray-600 leading-relaxed">
-                Soluciones integrales de climatización con tecnología de vanguardia para espacios residenciales, comerciales e industriales.
+                Soluciones integrales de consultoría y diseño HVAC con ingeniería de precisión para espacios residenciales, comerciales e industriales.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -116,7 +116,7 @@ const Home = () => {
               Nuestros Servicios
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Soluciones completas de climatización adaptadas a sus necesidades específicas
+              Servicios especializados de consultoría, diseño y evaluación adaptados a sus necesidades
             </p>
           </div>
 
@@ -243,10 +243,10 @@ const Home = () => {
       <section className="py-20 bg-gradient-to-r from-[#0A2540] to-[#4FC3F7] text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            ¿Listo para Mejorar su Climatización?
+            ¿Listo para Optimizar su Sistema HVAC?
           </h2>
           <p className="text-xl mb-8 text-white/90">
-            Solicite una cotización gratuita y descubra cómo podemos optimizar su sistema HVAC
+            Solicite una consultoría gratuita y descubra cómo podemos mejorar la eficiencia de su sistema
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
@@ -254,7 +254,7 @@ const Home = () => {
               size="lg"
               className="bg-white text-[#0A2540] hover:bg-gray-100 font-semibold px-8 py-6 text-lg"
             >
-              <Link to="/contacto">Solicitar Cotización Gratuita</Link>
+              <Link to="/contacto">Solicitar Consultoría Gratuita</Link>
             </Button>
             <Button
               asChild
