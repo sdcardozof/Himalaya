@@ -39,7 +39,7 @@ export const Footer = () => {
               </div>
             </div>
             <p className="text-sm text-gray-300 mb-4">
-              Líderes en soluciones de climatización con tecnología de vanguardia y servicio excepcional.
+              Líderes en consultoría y diseño de sistemas HVAC con ingeniería de precisión y servicio excepcional.
             </p>
             <div className="flex space-x-3">
               <a href="#" className="p-2 bg-white/10 rounded-lg hover:bg-[#4FC3F7] transition-colors">
@@ -93,12 +93,12 @@ export const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Servicios</h3>
             <ul className="space-y-2">
-              <li className="text-sm text-gray-300">Instalación HVAC</li>
-              <li className="text-sm text-gray-300">Mantenimiento Preventivo</li>
-              <li className="text-sm text-gray-300">Reparaciones de Emergencia</li>
-              <li className="text-sm text-gray-300">Diseño de Ventilación</li>
-              <li className="text-sm text-gray-300">Calidad de Aire</li>
-              <li className="text-sm text-gray-300">HVAC Comercial</li>
+              <li className="text-sm text-gray-300">Consultoría HVAC</li>
+              <li className="text-sm text-gray-300">Diseño de Sistemas</li>
+              <li className="text-sm text-gray-300">Evaluación de Sistemas</li>
+              <li className="text-sm text-gray-300">Diagnóstico Técnico</li>
+              <li className="text-sm text-gray-300">Rediseño y Optimización</li>
+              <li className="text-sm text-gray-300">Análisis de Calidad de Aire</li>
             </ul>
           </div>
 

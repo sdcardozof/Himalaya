@@ -183,5 +183,5 @@ export const companyInfo = {
   email: "contacto@himalayahvac.com",
   address: "Calle Principal #123, Ciudad, País",
   hours: "Lun - Vie: 8:00 AM - 6:00 PM | Sáb: 9:00 AM - 2:00 PM",
-  emergencyHours: "Emergencias 24/7"
+  emergencyHours: "Consultas técnicas disponibles"
 };
