@@ -24,7 +24,7 @@ const Servicios = () => {
               Nuestros Servicios
             </h1>
             <p className="text-xl text-gray-600">
-              Soluciones integrales de climatización diseñadas con precisión para cada necesidad
+              Consultoría y diseño de sistemas HVAC con precisión ingenieril
             </p>
           </div>
         </div>
@@ -61,15 +61,15 @@ const Servicios = () => {
                     <div className="space-y-3 mb-6">
                       <div className="flex items-start space-x-2">
                         <div className="w-1.5 h-1.5 bg-[#4FC3F7] rounded-full mt-2"></div>
-                        <p className="text-sm text-gray-600">Equipos de última generación</p>
+                        <p className="text-sm text-gray-600">Ingeniería especializada</p>
                       </div>
                       <div className="flex items-start space-x-2">
                         <div className="w-1.5 h-1.5 bg-[#4FC3F7] rounded-full mt-2"></div>
-                        <p className="text-sm text-gray-600">Técnicos certificados</p>
+                        <p className="text-sm text-gray-600">Documentación técnica completa</p>
                       </div>
                       <div className="flex items-start space-x-2">
                         <div className="w-1.5 h-1.5 bg-[#4FC3F7] rounded-full mt-2"></div>
-                        <p className="text-sm text-gray-600">Garantía extendida incluida</p>
+                        <p className="text-sm text-gray-600">Enfoque en eficiencia energética</p>
                       </div>
                     </div>
 
@@ -78,7 +78,7 @@ const Servicios = () => {
                       className="w-full bg-gradient-to-r from-[#4FC3F7] to-[#0A2540] hover:opacity-90 text-white font-medium group"
                     >
                       <a href="/contacto">
-                        Solicitar Cotización
+                        Solicitar Consultoría
                         <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={16} />
                       </a>
                     </Button>
@@ -97,7 +97,7 @@ const Servicios = () => {
             ¿No encuentra el servicio que necesita?
           </h2>
           <p className="text-xl mb-8 text-white/90">
-            Contáctenos y diseñaremos una solución personalizada para su proyecto
+            Contáctenos y evaluaremos su proyecto para diseñar una solución personalizada
           </p>
           <Button
             asChild

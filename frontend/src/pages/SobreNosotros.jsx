@@ -48,10 +48,10 @@ const SobreNosotros = () => {
                 Una Nueva Era en Climatización
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Himalaya HVAC nace con la visión de revolucionar la industria de la climatización en Colombia. Aunque somos una empresa nueva, nuestro equipo cuenta con décadas de experiencia combinada en ingeniería HVAC y gestión de proyectos.
+                Himalaya HVAC nace con la visión de revolucionar la consultoría y diseño de sistemas HVAC en Colombia. Aunque somos una empresa nueva, nuestro equipo cuenta con décadas de experiencia combinada en ingeniería HVAC y gestión de proyectos.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Nos especializamos en ofrecer soluciones de climatización que combinan tecnología de vanguardia, eficiencia energética y un servicio al cliente excepcional. Cada proyecto es una oportunidad para demostrar nuestro compromiso con la excelencia.
+                Nos especializamos en ofrecer servicios de consultoría, diseño y evaluación que combinan ingeniería de precisión, eficiencia energética y un servicio al cliente excepcional. Cada proyecto es una oportunidad para demostrar nuestro compromiso con la excelencia técnica.
               </p>
               <div className="grid grid-cols-2 gap-6 pt-6">
                 <div className="flex items-start space-x-3">
