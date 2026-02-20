@@ -3,45 +3,45 @@
 export const services = [
   {
     id: 1,
-    title: "Instalación HVAC",
-    description: "Instalación profesional de sistemas de climatización con equipos de última generación y garantía extendida.",
-    icon: "Settings",
-    image: "https://images.unsplash.com/photo-1621905251918-48416bd8575a"
-  },
-  {
-    id: 2,
-    title: "Mantenimiento Preventivo",
-    description: "Planes de mantenimiento programado para maximizar la eficiencia y vida útil de sus equipos.",
-    icon: "Wrench",
+    title: "Consultoría HVAC",
+    description: "Asesoría especializada para optimizar su sistema de climatización, reducir costos operativos y mejorar eficiencia energética.",
+    icon: "Lightbulb",
     image: "https://images.unsplash.com/photo-1540476547779-348beb642680"
   },
   {
-    id: 3,
-    title: "Reparaciones de Emergencia",
-    description: "Servicio 24/7 para atender emergencias y restaurar su sistema rápidamente.",
-    icon: "AlertCircle",
-    image: "https://images.unsplash.com/photo-1550041473-d296a3a8a18a"
-  },
-  {
-    id: 4,
-    title: "Diseño de Sistemas de Ventilación",
-    description: "Diseño personalizado de sistemas de ventilación adaptados a sus necesidades específicas.",
-    icon: "Wind",
+    id: 2,
+    title: "Diseño de Sistemas",
+    description: "Diseño personalizado de sistemas HVAC adaptados a las necesidades específicas de su proyecto, con cálculos de carga térmica precisos.",
+    icon: "Pencil",
     image: "https://images.unsplash.com/photo-1667983453881-4992fe86ab1b"
   },
   {
+    id: 3,
+    title: "Evaluación de Sistemas Existentes",
+    description: "Análisis completo del rendimiento de su sistema actual, identificando áreas de mejora y oportunidades de ahorro.",
+    icon: "ClipboardCheck",
+    image: "https://images.unsplash.com/photo-1621905251918-48416bd8575a"
+  },
+  {
+    id: 4,
+    title: "Diagnóstico Técnico",
+    description: "Diagnóstico preciso de problemas, fallas y deficiencias en sistemas de climatización mediante tecnología avanzada.",
+    icon: "Search",
+    image: "https://images.unsplash.com/photo-1550041473-d296a3a8a18a"
+  },
+  {
     id: 5,
-    title: "Soluciones de Calidad de Aire",
-    description: "Sistemas avanzados de purificación y filtración para ambientes más saludables.",
-    icon: "Sparkles",
-    image: "https://images.unsplash.com/photo-1612836639523-2ed74bc0209e"
+    title: "Rediseño y Optimización",
+    description: "Rediseño de sistemas obsoletos o ineficientes para mejorar rendimiento, reducir consumo y extender vida útil.",
+    icon: "RefreshCw",
+    image: "https://images.unsplash.com/photo-1604754742629-3e5728249d73"
   },
   {
     id: 6,
-    title: "Soluciones HVAC Comerciales",
-    description: "Sistemas integrales para empresas, oficinas y espacios comerciales de cualquier tamaño.",
-    icon: "Building2",
-    image: "https://images.unsplash.com/photo-1545259741-2ea3ebf61fa3"
+    title: "Análisis de Calidad de Aire",
+    description: "Estudios especializados de calidad de aire interior y recomendaciones para ambientes saludables.",
+    icon: "Wind",
+    image: "https://images.unsplash.com/photo-1612836639523-2ed74bc0209e"
   }
 ];
 
@@ -50,7 +50,7 @@ export const projects = [
     id: 1,
     title: "Torre Corporativa Centro",
     category: "Comercial",
-    description: "Sistema HVAC completo para edificio de 15 pisos",
+    description: "Diseño y evaluación de sistema HVAC para edificio de 15 pisos",
     image: "https://images.unsplash.com/photo-1612836639523-2ed74bc0209e",
     year: "2024"
   },
@@ -58,7 +58,7 @@ export const projects = [
     id: 2,
     title: "Residencial Los Pinos",
     category: "Residencial",
-    description: "Climatización de lujo para complejo residencial",
+    description: "Consultoría y rediseño de climatización para complejo residencial",
     image: "https://images.unsplash.com/photo-1545259741-2ea3ebf61fa3",
     year: "2024"
   },
@@ -66,7 +66,7 @@ export const projects = [
     id: 3,
     title: "Planta Industrial TechManu",
     category: "Industrial",
-    description: "Sistema de ventilación industrial de alta capacidad",
+    description: "Diseño de sistema de ventilación industrial especializado",
     image: "https://images.unsplash.com/photo-1667983453881-4992fe86ab1b",
     year: "2023"
   },
@@ -74,7 +74,7 @@ export const projects = [
     id: 4,
     title: "Hotel Boutique Sierra",
     category: "Comercial",
-    description: "Climatización individual para 50 habitaciones",
+    description: "Evaluación y optimización de sistemas para 50 habitaciones",
     image: "https://images.unsplash.com/photo-1604754742629-3e5728249d73",
     year: "2024"
   },
@@ -82,7 +82,7 @@ export const projects = [
     id: 5,
     title: "Villa Privada Campestre",
     category: "Residencial",
-    description: "Sistema VRF de última generación",
+    description: "Consultoría y diseño de sistema VRF eficiente",
     image: "https://images.unsplash.com/photo-1691351582808-329cde17ffa2",
     year: "2023"
   },
@@ -90,7 +90,7 @@ export const projects = [
     id: 6,
     title: "Centro Comercial Plaza",
     category: "Comercial",
-    description: "Climatización centralizada para 120 locales",
+    description: "Diagnóstico y rediseño para 120 locales comerciales",
     image: "https://images.unsplash.com/photo-1550041473-d296a3a8a18a",
     year: "2024"
   }
@@ -101,21 +101,21 @@ export const testimonials = [
     id: 1,
     name: "Carlos Mendoza",
     company: "Director de Operaciones - TechCorp",
-    text: "Himalaya HVAC transformó completamente nuestro sistema de climatización. La eficiencia energética mejoró un 40% y el ambiente de trabajo es excepcional.",
+    text: "La consultoría de Himalaya HVAC fue clave para optimizar nuestro sistema. Su diagnóstico preciso nos ayudó a reducir costos operativos en un 40%.",
     rating: 5
   },
   {
     id: 2,
     name: "María Rodríguez",
     company: "Propietaria - Residencial Los Pinos",
-    text: "Profesionales de primera. La instalación fue impecable y el servicio post-venta es excelente. Totalmente recomendados.",
+    text: "El diseño que nos entregaron fue impecable. Cada detalle técnico fue considerado y las especificaciones fueron muy claras para los instaladores.",
     rating: 5
   },
   {
     id: 3,
     name: "Jorge Ramírez",
     company: "Gerente General - Hotel Sierra",
-    text: "Su respuesta ante emergencias es incomparable. Mantienen nuestro hotel funcionando perfectamente las 24 horas.",
+    text: "Su evaluación técnica identificó problemas que otros no detectaron. Gracias a sus recomendaciones, nuestro sistema ahora funciona óptimamente.",
     rating: 5
   }
 ];
@@ -123,33 +123,33 @@ export const testimonials = [
 export const faqs = [
   {
     id: 1,
-    question: "¿Qué tipo de sistemas HVAC instalan?",
-    answer: "Instalamos todo tipo de sistemas: aire acondicionado central, VRF, mini-split, chillers, manejadoras de aire, sistemas de ventilación mecánica y soluciones personalizadas según las necesidades del proyecto."
+    question: "¿Qué incluye una consultoría HVAC?",
+    answer: "Incluye análisis completo de necesidades, evaluación de alternativas, cálculos de carga térmica, recomendaciones de equipos, estimación de costos operativos y plan de implementación detallado."
   },
   {
     id: 2,
-    question: "¿Ofrecen garantía en sus instalaciones?",
-    answer: "Sí, todas nuestras instalaciones incluyen garantía de mano de obra y los equipos cuentan con garantía del fabricante. Además, ofrecemos planes de mantenimiento extendidos."
+    question: "¿Realizan diseños para todo tipo de proyectos?",
+    answer: "Sí, diseñamos sistemas HVAC para proyectos residenciales, comerciales e industriales ligeros. Desde viviendas unifamiliares hasta grandes edificios corporativos."
   },
   {
     id: 3,
-    question: "¿Cuál es el tiempo de respuesta para emergencias?",
-    answer: "Nuestro servicio de emergencias está disponible 24/7 con tiempo de respuesta promedio de 2-4 horas en la zona metropolitana."
+    question: "¿Qué incluye una evaluación de sistema existente?",
+    answer: "Incluye inspección técnica completa, mediciones de rendimiento, análisis de eficiencia energética, identificación de problemas y reporte con recomendaciones de mejora."
   },
   {
     id: 4,
-    question: "¿Realizan mantenimiento de equipos de otras marcas?",
-    answer: "Sí, nuestros técnicos están certificados para dar mantenimiento y reparar equipos de todas las marcas principales del mercado."
+    question: "¿Entregan documentación técnica detallada?",
+    answer: "Sí, todos nuestros diseños incluyen planos técnicos, memorias de cálculo, especificaciones de equipos, cronogramas y documentación completa lista para licitación o construcción."
   },
   {
     id: 5,
-    question: "¿Qué beneficios tiene el mantenimiento preventivo?",
-    answer: "El mantenimiento preventivo extiende la vida útil de los equipos, reduce consumo energético hasta en 30%, previene fallas costosas y mantiene la garantía vigente."
+    question: "¿Cuánto tiempo toma un proyecto de diseño?",
+    answer: "Depende de la complejidad. Un proyecto residencial toma 1-2 semanas, mientras que proyectos comerciales o industriales pueden tomar 3-6 semanas desde el inicio hasta la entrega final."
   },
   {
     id: 6,
-    question: "¿Trabajan con proyectos residenciales y comerciales?",
-    answer: "Sí, atendemos proyectos residenciales, comerciales e industriales ligeros de cualquier tamaño, desde viviendas hasta grandes edificios corporativos."
+    question: "¿Ofrecen acompañamiento durante la construcción?",
+    answer: "Sí, ofrecemos servicios de supervisión técnica y acompañamiento durante la fase de construcción para garantizar que el diseño se ejecute correctamente."
   }
 ];
 
