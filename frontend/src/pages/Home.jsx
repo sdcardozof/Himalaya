@@ -67,22 +67,6 @@ const Home = () => {
                   </a>
                 </Button>
               </div>
-
-              {/* Stats */}
-              <div className="grid grid-cols-3 gap-6 pt-8 border-t border-gray-200">
-                <div>
-                  <div className="text-3xl font-bold text-[#0F5DA8]">500+</div>
-                  <div className="text-sm text-gray-600">Proyectos</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-[#0F5DA8]">98%</div>
-                  <div className="text-sm text-gray-600">Satisfacción</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-[#0F5DA8]">24/7</div>
-                  <div className="text-sm text-gray-600">Soporte</div>
-                </div>
-              </div>
             </div>
 
             <div className="relative">
