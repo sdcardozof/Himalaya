@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Phone, Shield, Zap, Award, CheckCircle } from "lucide-react";
+import { ArrowRight, Phone, Shield, Zap } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { Card, CardContent } from "../components/ui/card";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 import { WhatsAppButton } from "../components/WhatsAppButton";
-import { services, testimonials, whyChooseUs } from "../data/mock";
+import { services, whyChooseUs } from "../data/mock";
 import * as LucideIcons from "lucide-react";
 
 const Home = () => {
