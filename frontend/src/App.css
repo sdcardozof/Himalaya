@@ -9,26 +9,26 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-    background: #F4F6F8;
+    background: #C9D2DC;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #4FC3F7, #0A2540);
+    background: linear-gradient(to bottom, #0F5DA8, #E2231A);
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #0A2540;
+    background: #0F5DA8;
 }
 
 /* Selection color */
 ::selection {
-    background: #4FC3F7;
+    background: #0F5DA8;
     color: white;
 }
 
 ::-moz-selection {
-    background: #4FC3F7;
+    background: #0F5DA8;
     color: white;
 }
 
