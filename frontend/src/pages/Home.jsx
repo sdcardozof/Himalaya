@@ -187,42 +187,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#0F5DA8] mb-4">
-              Lo Que Dicen Nuestros Clientes
-            </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              La satisfacción de nuestros clientes es nuestra mejor carta de presentación
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial) => (
-              <Card
-                key={testimonial.id}
-                className="border-2 border-gray-100 hover:border-[#E2231A] hover:shadow-xl transition-all duration-300"
-              >
-                <CardContent className="p-6">
-                  <div className="flex mb-4">
-                    {[...Array(testimonial.rating)].map((_, i) => (
-                      <Award key={i} className="text-[#E2231A] fill-[#E2231A]" size={20} />
-                    ))}
-                  </div>
-                  <p className="text-gray-600 mb-6 italic">"{testimonial.text}"</p>
-                  <div className="border-t border-gray-200 pt-4">
-                    <div className="font-bold text-[#0F5DA8]">{testimonial.name}</div>
-                    <div className="text-sm text-gray-500">{testimonial.company}</div>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-[#0F5DA8] to-[#E2231A] text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
