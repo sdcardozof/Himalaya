@@ -37,7 +37,7 @@ export const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-[#E2231A] to-[#0F5DA8] rounded-lg blur-sm opacity-50 group-hover:opacity-75 transition-opacity"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-[#0F5DA8] to-[#E2231A] rounded-lg blur-sm opacity-50 group-hover:opacity-75 transition-opacity"></div>
               <div className="relative bg-gradient-to-br from-[#0F5DA8] to-[#E2231A] p-2 rounded-lg">
                 <svg
                   width="32"
