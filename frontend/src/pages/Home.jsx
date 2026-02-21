@@ -17,25 +17,25 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden">
         {/* Background with gradient */}
-        <div className="absolute inset-0 bg-gradient-to-br from-[#F4F6F8] via-white to-[#F4F6F8]"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-[#C9D2DC] via-white to-[#C9D2DC]"></div>
         
         {/* Decorative elements */}
-        <div className="absolute top-20 right-0 w-96 h-96 bg-[#4FC3F7]/10 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#0A2540]/5 rounded-full blur-3xl"></div>
+        <div className="absolute top-20 right-0 w-96 h-96 bg-[#E2231A]/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#0F5DA8]/5 rounded-full blur-3xl"></div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
-              <div className="inline-flex items-center space-x-2 bg-[#4FC3F7]/10 px-4 py-2 rounded-full">
-                <Shield className="text-[#4FC3F7]" size={18} />
-                <span className="text-sm font-medium text-[#0A2540]">
+              <div className="inline-flex items-center space-x-2 bg-[#E2231A]/10 px-4 py-2 rounded-full">
+                <Shield className="text-[#E2231A]" size={18} />
+                <span className="text-sm font-medium text-[#0F5DA8]">
                   Tecnología y Confianza desde 2024
                 </span>
               </div>
 
-              <h1 className="text-5xl md:text-6xl font-bold text-[#0A2540] leading-tight">
+              <h1 className="text-5xl md:text-6xl font-bold text-[#0F5DA8] leading-tight">
                 Confort Diseñado.
-                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#4FC3F7] to-[#0A2540]">
+                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#E2231A] to-[#0F5DA8]">
                   Precisión Garantizada.
                 </span>
               </h1>
@@ -48,7 +48,7 @@ const Home = () => {
                 <Button
                   asChild
                   size="lg"
-                  className="bg-gradient-to-r from-[#4FC3F7] to-[#0A2540] hover:opacity-90 text-white font-semibold px-8 py-6 text-lg group"
+                  className="bg-gradient-to-r from-[#E2231A] to-[#0F5DA8] hover:opacity-90 text-white font-semibold px-8 py-6 text-lg group"
                 >
                   <Link to="/contacto">
                     Solicitar Cotización
@@ -59,7 +59,7 @@ const Home = () => {
                   asChild
                   size="lg"
                   variant="outline"
-                  className="border-2 border-[#0A2540] text-[#0A2540] hover:bg-[#0A2540] hover:text-white font-semibold px-8 py-6 text-lg"
+                  className="border-2 border-[#0F5DA8] text-[#0F5DA8] hover:bg-[#0F5DA8] hover:text-white font-semibold px-8 py-6 text-lg"
                 >
                   <a href="tel:3150290119">
                     <Phone className="mr-2" size={20} />
@@ -71,22 +71,22 @@ const Home = () => {
               {/* Stats */}
               <div className="grid grid-cols-3 gap-6 pt-8 border-t border-gray-200">
                 <div>
-                  <div className="text-3xl font-bold text-[#0A2540]">500+</div>
+                  <div className="text-3xl font-bold text-[#0F5DA8]">500+</div>
                   <div className="text-sm text-gray-600">Proyectos</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-[#0A2540]">98%</div>
+                  <div className="text-3xl font-bold text-[#0F5DA8]">98%</div>
                   <div className="text-sm text-gray-600">Satisfacción</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-[#0A2540]">24/7</div>
+                  <div className="text-3xl font-bold text-[#0F5DA8]">24/7</div>
                   <div className="text-sm text-gray-600">Soporte</div>
                 </div>
               </div>
             </div>
 
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#4FC3F7]/20 to-[#0A2540]/20 rounded-3xl blur-2xl"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-[#E2231A]/20 to-[#0F5DA8]/20 rounded-3xl blur-2xl"></div>
               <img
                 src="https://images.unsplash.com/photo-1621905251918-48416bd8575a"
                 alt="Técnico HVAC profesional"
@@ -94,11 +94,11 @@ const Home = () => {
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl">
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-[#4FC3F7] to-[#0A2540] rounded-xl flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-[#E2231A] to-[#0F5DA8] rounded-xl flex items-center justify-center">
                     <Zap className="text-white" size={24} />
                   </div>
                   <div>
-                    <div className="text-2xl font-bold text-[#0A2540]">40%</div>
+                    <div className="text-2xl font-bold text-[#0F5DA8]">40%</div>
                     <div className="text-sm text-gray-600">Ahorro Energético</div>
                   </div>
                 </div>
@@ -112,7 +112,7 @@ const Home = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#0A2540] mb-4">
+            <h2 className="text-4xl font-bold text-[#0F5DA8] mb-4">
               Nuestros Servicios
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -126,7 +126,7 @@ const Home = () => {
               return (
                 <Card
                   key={service.id}
-                  className="group hover:shadow-2xl transition-all duration-300 border-2 border-gray-100 hover:border-[#4FC3F7] overflow-hidden"
+                  className="group hover:shadow-2xl transition-all duration-300 border-2 border-gray-100 hover:border-[#E2231A] overflow-hidden"
                 >
                   <div className="h-48 overflow-hidden">
                     <img
@@ -136,16 +136,16 @@ const Home = () => {
                     />
                   </div>
                   <CardContent className="p-6">
-                    <div className="w-12 h-12 bg-gradient-to-br from-[#4FC3F7]/20 to-[#0A2540]/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                      {Icon && <Icon className="text-[#0A2540]" size={24} />}
+                    <div className="w-12 h-12 bg-gradient-to-br from-[#E2231A]/20 to-[#0F5DA8]/20 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                      {Icon && <Icon className="text-[#0F5DA8]" size={24} />}
                     </div>
-                    <h3 className="text-xl font-bold text-[#0A2540] mb-3">
+                    <h3 className="text-xl font-bold text-[#0F5DA8] mb-3">
                       {service.title}
                     </h3>
                     <p className="text-gray-600 mb-4">{service.description}</p>
                     <Link
                       to="/servicios"
-                      className="inline-flex items-center text-[#4FC3F7] font-medium hover:text-[#0A2540] transition-colors group"
+                      className="inline-flex items-center text-[#E2231A] font-medium hover:text-[#0F5DA8] transition-colors group"
                     >
                       Ver más
                       <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={16} />
@@ -161,7 +161,7 @@ const Home = () => {
               asChild
               size="lg"
               variant="outline"
-              className="border-2 border-[#0A2540] text-[#0A2540] hover:bg-[#0A2540] hover:text-white font-semibold px-8"
+              className="border-2 border-[#0F5DA8] text-[#0F5DA8] hover:bg-[#0F5DA8] hover:text-white font-semibold px-8"
             >
               <Link to="/servicios">Ver Todos los Servicios</Link>
             </Button>
@@ -170,10 +170,10 @@ const Home = () => {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 bg-gradient-to-br from-[#F4F6F8] to-white">
+      <section className="py-20 bg-gradient-to-br from-[#C9D2DC] to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#0A2540] mb-4">
+            <h2 className="text-4xl font-bold text-[#0F5DA8] mb-4">
               ¿Por Qué Elegirnos?
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -189,10 +189,10 @@ const Home = () => {
                   key={index}
                   className="text-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
                 >
-                  <div className="w-16 h-16 bg-gradient-to-br from-[#4FC3F7] to-[#0A2540] rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-gradient-to-br from-[#E2231A] to-[#0F5DA8] rounded-2xl flex items-center justify-center mx-auto mb-4">
                     {Icon && <Icon className="text-white" size={32} />}
                   </div>
-                  <h3 className="text-xl font-bold text-[#0A2540] mb-2">
+                  <h3 className="text-xl font-bold text-[#0F5DA8] mb-2">
                     {item.title}
                   </h3>
                   <p className="text-gray-600">{item.description}</p>
@@ -207,7 +207,7 @@ const Home = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#0A2540] mb-4">
+            <h2 className="text-4xl font-bold text-[#0F5DA8] mb-4">
               Lo Que Dicen Nuestros Clientes
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -219,17 +219,17 @@ const Home = () => {
             {testimonials.map((testimonial) => (
               <Card
                 key={testimonial.id}
-                className="border-2 border-gray-100 hover:border-[#4FC3F7] hover:shadow-xl transition-all duration-300"
+                className="border-2 border-gray-100 hover:border-[#E2231A] hover:shadow-xl transition-all duration-300"
               >
                 <CardContent className="p-6">
                   <div className="flex mb-4">
                     {[...Array(testimonial.rating)].map((_, i) => (
-                      <Award key={i} className="text-[#4FC3F7] fill-[#4FC3F7]" size={20} />
+                      <Award key={i} className="text-[#E2231A] fill-[#E2231A]" size={20} />
                     ))}
                   </div>
                   <p className="text-gray-600 mb-6 italic">"{testimonial.text}"</p>
                   <div className="border-t border-gray-200 pt-4">
-                    <div className="font-bold text-[#0A2540]">{testimonial.name}</div>
+                    <div className="font-bold text-[#0F5DA8]">{testimonial.name}</div>
                     <div className="text-sm text-gray-500">{testimonial.company}</div>
                   </div>
                 </CardContent>
@@ -240,7 +240,7 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-[#0A2540] to-[#4FC3F7] text-white">
+      <section className="py-20 bg-gradient-to-r from-[#0F5DA8] to-[#E2231A] text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             ¿Listo para Optimizar su Sistema HVAC?
@@ -252,7 +252,7 @@ const Home = () => {
             <Button
               asChild
               size="lg"
-              className="bg-white text-[#0A2540] hover:bg-gray-100 font-semibold px-8 py-6 text-lg"
+              className="bg-white text-[#0F5DA8] hover:bg-gray-100 font-semibold px-8 py-6 text-lg"
             >
               <Link to="/contacto">Solicitar Consultoría Gratuita</Link>
             </Button>
@@ -260,7 +260,7 @@ const Home = () => {
               asChild
               size="lg"
               variant="outline"
-              className="border-2 border-white text-white hover:bg-white hover:text-[#0A2540] font-semibold px-8 py-6 text-lg"
+              className="border-2 border-white text-white hover:bg-white hover:text-[#0F5DA8] font-semibold px-8 py-6 text-lg"
             >
               <Link to="/proyectos">Ver Proyectos Realizados</Link>
             </Button>

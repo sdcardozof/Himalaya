@@ -67,10 +67,10 @@ const Contacto = () => {
       <WhatsAppButton />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 bg-gradient-to-br from-[#F4F6F8] via-white to-[#F4F6F8]">
+      <section className="pt-32 pb-16 bg-gradient-to-br from-[#C9D2DC] via-white to-[#C9D2DC]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-bold text-[#0A2540] mb-6">
+            <h1 className="text-5xl md:text-6xl font-bold text-[#0F5DA8] mb-6">
               Contáctanos
             </h1>
             <p className="text-xl text-gray-600">
@@ -86,12 +86,12 @@ const Contacto = () => {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div className="bg-white rounded-3xl shadow-2xl p-8 border-2 border-gray-100">
-              <h2 className="text-3xl font-bold text-[#0A2540] mb-6">
+              <h2 className="text-3xl font-bold text-[#0F5DA8] mb-6">
                 Solicitar Consultoría
               </h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
-                  <Label htmlFor="name" className="text-[#0A2540] font-medium">
+                  <Label htmlFor="name" className="text-[#0F5DA8] font-medium">
                     Nombre Completo *
                   </Label>
                   <Input
@@ -101,13 +101,13 @@ const Contacto = () => {
                     required
                     value={formData.name}
                     onChange={handleChange}
-                    className="mt-2 border-2 border-gray-200 focus:border-[#4FC3F7] transition-colors"
+                    className="mt-2 border-2 border-gray-200 focus:border-[#E2231A] transition-colors"
                     placeholder="Juan Pérez"
                   />
                 </div>
 
                 <div>
-                  <Label htmlFor="email" className="text-[#0A2540] font-medium">
+                  <Label htmlFor="email" className="text-[#0F5DA8] font-medium">
                     Correo Electrónico *
                   </Label>
                   <Input
@@ -117,13 +117,13 @@ const Contacto = () => {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    className="mt-2 border-2 border-gray-200 focus:border-[#4FC3F7] transition-colors"
+                    className="mt-2 border-2 border-gray-200 focus:border-[#E2231A] transition-colors"
                     placeholder="juan@ejemplo.com"
                   />
                 </div>
 
                 <div>
-                  <Label htmlFor="phone" className="text-[#0A2540] font-medium">
+                  <Label htmlFor="phone" className="text-[#0F5DA8] font-medium">
                     Teléfono *
                   </Label>
                   <Input
@@ -133,13 +133,13 @@ const Contacto = () => {
                     required
                     value={formData.phone}
                     onChange={handleChange}
-                    className="mt-2 border-2 border-gray-200 focus:border-[#4FC3F7] transition-colors"
+                    className="mt-2 border-2 border-gray-200 focus:border-[#E2231A] transition-colors"
                     placeholder="315 000 0000"
                   />
                 </div>
 
                 <div>
-                  <Label htmlFor="service" className="text-[#0A2540] font-medium">
+                  <Label htmlFor="service" className="text-[#0F5DA8] font-medium">
                     Servicio de Interés
                   </Label>
                   <select
@@ -147,7 +147,7 @@ const Contacto = () => {
                     name="service"
                     value={formData.service}
                     onChange={handleChange}
-                    className="mt-2 w-full px-3 py-2 border-2 border-gray-200 rounded-lg focus:border-[#4FC3F7] focus:outline-none transition-colors bg-white"
+                    className="mt-2 w-full px-3 py-2 border-2 border-gray-200 rounded-lg focus:border-[#E2231A] focus:outline-none transition-colors bg-white"
                   >
                     <option value="">Seleccionar servicio</option>
                     <option value="consultoria">Consultoría HVAC</option>
@@ -160,7 +160,7 @@ const Contacto = () => {
                 </div>
 
                 <div>
-                  <Label htmlFor="message" className="text-[#0A2540] font-medium">
+                  <Label htmlFor="message" className="text-[#0F5DA8] font-medium">
                     Mensaje *
                   </Label>
                   <Textarea
@@ -170,7 +170,7 @@ const Contacto = () => {
                     value={formData.message}
                     onChange={handleChange}
                     rows={5}
-                    className="mt-2 border-2 border-gray-200 focus:border-[#4FC3F7] transition-colors resize-none"
+                    className="mt-2 border-2 border-gray-200 focus:border-[#E2231A] transition-colors resize-none"
                     placeholder="Cuéntanos sobre tu proyecto..."
                   />
                 </div>
@@ -178,7 +178,7 @@ const Contacto = () => {
                 <Button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full bg-gradient-to-r from-[#4FC3F7] to-[#0A2540] hover:opacity-90 text-white font-semibold py-6 text-lg group"
+                  className="w-full bg-gradient-to-r from-[#E2231A] to-[#0F5DA8] hover:opacity-90 text-white font-semibold py-6 text-lg group"
                 >
                   {isSubmitting ? (
                     "Enviando..."
@@ -195,7 +195,7 @@ const Contacto = () => {
             {/* Contact Info */}
             <div className="space-y-8">
               <div>
-                <h2 className="text-3xl font-bold text-[#0A2540] mb-6">
+                <h2 className="text-3xl font-bold text-[#0F5DA8] mb-6">
                   Información de Contacto
                 </h2>
                 <p className="text-lg text-gray-600 mb-8">
@@ -204,68 +204,68 @@ const Contacto = () => {
               </div>
 
               <div className="space-y-6">
-                <div className="flex items-start space-x-4 p-6 bg-gradient-to-br from-[#F4F6F8] to-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
-                  <div className="w-14 h-14 bg-gradient-to-br from-[#4FC3F7] to-[#0A2540] rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="flex items-start space-x-4 p-6 bg-gradient-to-br from-[#C9D2DC] to-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#E2231A] to-[#0F5DA8] rounded-xl flex items-center justify-center flex-shrink-0">
                     <Phone className="text-white" size={24} />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-[#0A2540] mb-2">
+                    <h3 className="text-xl font-bold text-[#0F5DA8] mb-2">
                       Teléfonos
                     </h3>
                     <a
                       href="tel:3150290119"
-                      className="text-gray-600 hover:text-[#4FC3F7] transition-colors block mb-1"
+                      className="text-gray-600 hover:text-[#E2231A] transition-colors block mb-1"
                     >
                       315 029 0119
                     </a>
                     <a
                       href="tel:3058131103"
-                      className="text-gray-600 hover:text-[#4FC3F7] transition-colors block"
+                      className="text-gray-600 hover:text-[#E2231A] transition-colors block"
                     >
                       305 813 1103
                     </a>
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4 p-6 bg-gradient-to-br from-[#F4F6F8] to-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
-                  <div className="w-14 h-14 bg-gradient-to-br from-[#4FC3F7] to-[#0A2540] rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="flex items-start space-x-4 p-6 bg-gradient-to-br from-[#C9D2DC] to-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#E2231A] to-[#0F5DA8] rounded-xl flex items-center justify-center flex-shrink-0">
                     <Mail className="text-white" size={24} />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-[#0A2540] mb-2">
+                    <h3 className="text-xl font-bold text-[#0F5DA8] mb-2">
                       Email
                     </h3>
                     <a
                       href={`mailto:${companyInfo.email}`}
-                      className="text-gray-600 hover:text-[#4FC3F7] transition-colors"
+                      className="text-gray-600 hover:text-[#E2231A] transition-colors"
                     >
                       {companyInfo.email}
                     </a>
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4 p-6 bg-gradient-to-br from-[#F4F6F8] to-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
-                  <div className="w-14 h-14 bg-gradient-to-br from-[#4FC3F7] to-[#0A2540] rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="flex items-start space-x-4 p-6 bg-gradient-to-br from-[#C9D2DC] to-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#E2231A] to-[#0F5DA8] rounded-xl flex items-center justify-center flex-shrink-0">
                     <MapPin className="text-white" size={24} />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-[#0A2540] mb-2">
+                    <h3 className="text-xl font-bold text-[#0F5DA8] mb-2">
                       Ubicación
                     </h3>
                     <p className="text-gray-600">{companyInfo.address}</p>
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-4 p-6 bg-gradient-to-br from-[#F4F6F8] to-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
-                  <div className="w-14 h-14 bg-gradient-to-br from-[#4FC3F7] to-[#0A2540] rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="flex items-start space-x-4 p-6 bg-gradient-to-br from-[#C9D2DC] to-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#E2231A] to-[#0F5DA8] rounded-xl flex items-center justify-center flex-shrink-0">
                     <Clock className="text-white" size={24} />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-[#0A2540] mb-2">
+                    <h3 className="text-xl font-bold text-[#0F5DA8] mb-2">
                       Horarios
                     </h3>
                     <p className="text-gray-600 mb-1">{companyInfo.hours}</p>
-                    <p className="text-[#4FC3F7] font-semibold">
+                    <p className="text-[#E2231A] font-semibold">
                       Consultas técnicas disponibles
                     </p>
                   </div>
@@ -291,10 +291,10 @@ const Contacto = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-gradient-to-br from-[#F4F6F8] to-white">
+      <section className="py-20 bg-gradient-to-br from-[#C9D2DC] to-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-[#0A2540] mb-4">
+            <h2 className="text-4xl font-bold text-[#0F5DA8] mb-4">
               Preguntas Frecuentes
             </h2>
             <p className="text-xl text-gray-600">
@@ -307,9 +307,9 @@ const Contacto = () => {
               <AccordionItem
                 key={faq.id}
                 value={`item-${faq.id}`}
-                className="bg-white border-2 border-gray-100 rounded-xl px-6 hover:border-[#4FC3F7] transition-colors"
+                className="bg-white border-2 border-gray-100 rounded-xl px-6 hover:border-[#E2231A] transition-colors"
               >
-                <AccordionTrigger className="text-left text-lg font-semibold text-[#0A2540] hover:text-[#4FC3F7] transition-colors">
+                <AccordionTrigger className="text-left text-lg font-semibold text-[#0F5DA8] hover:text-[#E2231A] transition-colors">
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 pt-2">

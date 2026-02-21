@@ -21,7 +21,7 @@ export const WhatsAppButton = () => {
                 <MessageCircle className="text-white" size={20} />
               </div>
               <div>
-                <h3 className="font-semibold text-[#0A2540] text-sm">Himalaya HVAC</h3>
+                <h3 className="font-semibold text-[#0F5DA8] text-sm">Himalaya HVAC</h3>
                 <p className="text-xs text-gray-500">Estamos en línea</p>
               </div>
             </div>

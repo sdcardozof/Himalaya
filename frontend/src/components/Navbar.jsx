@@ -37,8 +37,8 @@ export const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-[#4FC3F7] to-[#0A2540] rounded-lg blur-sm opacity-50 group-hover:opacity-75 transition-opacity"></div>
-              <div className="relative bg-gradient-to-br from-[#0A2540] to-[#4FC3F7] p-2 rounded-lg">
+              <div className="absolute inset-0 bg-gradient-to-r from-[#E2231A] to-[#0F5DA8] rounded-lg blur-sm opacity-50 group-hover:opacity-75 transition-opacity"></div>
+              <div className="relative bg-gradient-to-br from-[#0F5DA8] to-[#E2231A] p-2 rounded-lg">
                 <svg
                   width="32"
                   height="32"
@@ -63,10 +63,10 @@ export const Navbar = () => {
               </div>
             </div>
             <div className="flex flex-col">
-              <span className="text-xl font-bold text-[#0A2540] tracking-tight">
+              <span className="text-xl font-bold text-[#0F5DA8] tracking-tight">
                 Himalaya HVAC
               </span>
-              <span className="text-xs text-[#4FC3F7] font-medium -mt-1">
+              <span className="text-xs text-[#E2231A] font-medium -mt-1">
                 Soluciones de Clima con Precisión
               </span>
             </div>
@@ -80,8 +80,8 @@ export const Navbar = () => {
                 to={link.path}
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                   location.pathname === link.path
-                    ? "bg-[#0A2540] text-white"
-                    : "text-[#0A2540] hover:bg-[#F4F6F8]"
+                    ? "bg-[#0F5DA8] text-white"
+                    : "text-[#0F5DA8] hover:bg-[#C9D2DC]"
                 }`}
               >
                 {link.name}
@@ -91,13 +91,13 @@ export const Navbar = () => {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
-            <a href="tel:3150290119" className="flex items-center space-x-2 text-[#0A2540] hover:text-[#4FC3F7] transition-colors">
+            <a href="tel:3150290119" className="flex items-center space-x-2 text-[#0F5DA8] hover:text-[#E2231A] transition-colors">
               <Phone size={18} />
               <span className="text-sm font-medium">315 029 0119</span>
             </a>
             <Button
               asChild
-              className="bg-gradient-to-r from-[#4FC3F7] to-[#0A2540] hover:opacity-90 text-white font-medium px-6"
+              className="bg-gradient-to-r from-[#E2231A] to-[#0F5DA8] hover:opacity-90 text-white font-medium px-6"
             >
               <Link to="/contacto">Solicitar Cotización</Link>
             </Button>
@@ -106,7 +106,7 @@ export const Navbar = () => {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 rounded-lg text-[#0A2540] hover:bg-[#F4F6F8] transition-colors"
+            className="md:hidden p-2 rounded-lg text-[#0F5DA8] hover:bg-[#C9D2DC] transition-colors"
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -124,8 +124,8 @@ export const Navbar = () => {
                 onClick={() => setIsOpen(false)}
                 className={`block px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
                   location.pathname === link.path
-                    ? "bg-[#0A2540] text-white"
-                    : "text-[#0A2540] hover:bg-[#F4F6F8]"
+                    ? "bg-[#0F5DA8] text-white"
+                    : "text-[#0F5DA8] hover:bg-[#C9D2DC]"
                 }`}
               >
                 {link.name}
@@ -133,14 +133,14 @@ export const Navbar = () => {
             ))}
             <a
               href="tel:3150290119"
-              className="flex items-center justify-center space-x-2 px-4 py-3 rounded-lg text-[#0A2540] hover:bg-[#F4F6F8] transition-colors"
+              className="flex items-center justify-center space-x-2 px-4 py-3 rounded-lg text-[#0F5DA8] hover:bg-[#C9D2DC] transition-colors"
             >
               <Phone size={18} />
               <span className="text-sm font-medium">315 029 0119</span>
             </a>
             <Button
               asChild
-              className="w-full bg-gradient-to-r from-[#4FC3F7] to-[#0A2540] hover:opacity-90 text-white font-medium"
+              className="w-full bg-gradient-to-r from-[#E2231A] to-[#0F5DA8] hover:opacity-90 text-white font-medium"
             >
               <Link to="/contacto" onClick={() => setIsOpen(false)}>
                 Solicitar Cotización

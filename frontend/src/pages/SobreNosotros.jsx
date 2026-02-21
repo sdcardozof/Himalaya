@@ -13,10 +13,10 @@ const SobreNosotros = () => {
       <WhatsAppButton />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 bg-gradient-to-br from-[#F4F6F8] via-white to-[#F4F6F8]">
+      <section className="pt-32 pb-16 bg-gradient-to-br from-[#C9D2DC] via-white to-[#C9D2DC]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-bold text-[#0A2540] mb-6">
+            <h1 className="text-5xl md:text-6xl font-bold text-[#0F5DA8] mb-6">
               Sobre Nosotros
             </h1>
             <p className="text-xl text-gray-600">
@@ -38,13 +38,13 @@ const SobreNosotros = () => {
               />
             </div>
             <div className="space-y-6">
-              <div className="inline-flex items-center space-x-2 bg-[#4FC3F7]/10 px-4 py-2 rounded-full">
-                <Zap className="text-[#4FC3F7]" size={18} />
-                <span className="text-sm font-medium text-[#0A2540]">
+              <div className="inline-flex items-center space-x-2 bg-[#E2231A]/10 px-4 py-2 rounded-full">
+                <Zap className="text-[#E2231A]" size={18} />
+                <span className="text-sm font-medium text-[#0F5DA8]">
                   Fundada en 2024
                 </span>
               </div>
-              <h2 className="text-4xl font-bold text-[#0A2540]">
+              <h2 className="text-4xl font-bold text-[#0F5DA8]">
                 Una Nueva Era en Climatización
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
@@ -55,16 +55,16 @@ const SobreNosotros = () => {
               </p>
               <div className="grid grid-cols-2 gap-6 pt-6">
                 <div className="flex items-start space-x-3">
-                  <CheckCircle className="text-[#4FC3F7] mt-1 flex-shrink-0" size={24} />
+                  <CheckCircle className="text-[#E2231A] mt-1 flex-shrink-0" size={24} />
                   <div>
-                    <h3 className="font-bold text-[#0A2540] mb-1">Tecnología Avanzada</h3>
+                    <h3 className="font-bold text-[#0F5DA8] mb-1">Tecnología Avanzada</h3>
                     <p className="text-sm text-gray-600">Equipos de última generación</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <CheckCircle className="text-[#4FC3F7] mt-1 flex-shrink-0" size={24} />
+                  <CheckCircle className="text-[#E2231A] mt-1 flex-shrink-0" size={24} />
                   <div>
-                    <h3 className="font-bold text-[#0A2540] mb-1">Equipo Experto</h3>
+                    <h3 className="font-bold text-[#0F5DA8] mb-1">Equipo Experto</h3>
                     <p className="text-sm text-gray-600">Ingenieros certificados</p>
                   </div>
                 </div>
@@ -75,15 +75,15 @@ const SobreNosotros = () => {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-20 bg-gradient-to-br from-[#F4F6F8] to-white">
+      <section className="py-20 bg-gradient-to-br from-[#C9D2DC] to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8">
-            <Card className="border-2 border-[#4FC3F7]/20 hover:shadow-2xl transition-all duration-300">
+            <Card className="border-2 border-[#E2231A]/20 hover:shadow-2xl transition-all duration-300">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-gradient-to-br from-[#4FC3F7] to-[#0A2540] rounded-2xl flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-[#E2231A] to-[#0F5DA8] rounded-2xl flex items-center justify-center mb-6">
                   <Target className="text-white" size={32} />
                 </div>
-                <h3 className="text-3xl font-bold text-[#0A2540] mb-4">
+                <h3 className="text-3xl font-bold text-[#0F5DA8] mb-4">
                   Nuestra Misión
                 </h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
@@ -92,12 +92,12 @@ const SobreNosotros = () => {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-[#4FC3F7]/20 hover:shadow-2xl transition-all duration-300">
+            <Card className="border-2 border-[#E2231A]/20 hover:shadow-2xl transition-all duration-300">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-gradient-to-br from-[#4FC3F7] to-[#0A2540] rounded-2xl flex items-center justify-center mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-[#E2231A] to-[#0F5DA8] rounded-2xl flex items-center justify-center mb-6">
                   <Eye className="text-white" size={32} />
                 </div>
-                <h3 className="text-3xl font-bold text-[#0A2540] mb-4">
+                <h3 className="text-3xl font-bold text-[#0F5DA8] mb-4">
                   Nuestra Visión
                 </h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
@@ -113,7 +113,7 @@ const SobreNosotros = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#0A2540] mb-4">
+            <h2 className="text-4xl font-bold text-[#0F5DA8] mb-4">
               ¿Por Qué Elegirnos?
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -127,12 +127,12 @@ const SobreNosotros = () => {
               return (
                 <div
                   key={index}
-                  className="text-center p-8 bg-gradient-to-br from-[#F4F6F8] to-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+                  className="text-center p-8 bg-gradient-to-br from-[#C9D2DC] to-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
                 >
-                  <div className="w-16 h-16 bg-gradient-to-br from-[#4FC3F7] to-[#0A2540] rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-gradient-to-br from-[#E2231A] to-[#0F5DA8] rounded-2xl flex items-center justify-center mx-auto mb-4">
                     {Icon && <Icon className="text-white" size={32} />}
                   </div>
-                  <h3 className="text-xl font-bold text-[#0A2540] mb-2">
+                  <h3 className="text-xl font-bold text-[#0F5DA8] mb-2">
                     {item.title}
                   </h3>
                   <p className="text-gray-600">{item.description}</p>
@@ -144,17 +144,17 @@ const SobreNosotros = () => {
       </section>
 
       {/* Values */}
-      <section className="py-20 bg-gradient-to-br from-[#F4F6F8] to-white">
+      <section className="py-20 bg-gradient-to-br from-[#C9D2DC] to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#0A2540] mb-4">
+            <h2 className="text-4xl font-bold text-[#0F5DA8] mb-4">
               Nuestros Valores
             </h2>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-bold text-[#0A2540] mb-4">
+              <h3 className="text-2xl font-bold text-[#0F5DA8] mb-4">
                 Confiabilidad
               </h3>
               <p className="text-gray-600">
@@ -162,7 +162,7 @@ const SobreNosotros = () => {
               </p>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-bold text-[#0A2540] mb-4">
+              <h3 className="text-2xl font-bold text-[#0F5DA8] mb-4">
                 Innovación
               </h3>
               <p className="text-gray-600">
@@ -170,7 +170,7 @@ const SobreNosotros = () => {
               </p>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-bold text-[#0A2540] mb-4">
+              <h3 className="text-2xl font-bold text-[#0F5DA8] mb-4">
                 Excelencia
               </h3>
               <p className="text-gray-600">
@@ -185,7 +185,7 @@ const SobreNosotros = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#0A2540] mb-4">
+            <h2 className="text-4xl font-bold text-[#0F5DA8] mb-4">
               Nuestro Equipo
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -196,14 +196,14 @@ const SobreNosotros = () => {
           <div className="grid md:grid-cols-3 gap-12">
             <div className="text-center">
               <div className="relative mb-6 inline-block">
-                <div className="absolute inset-0 bg-gradient-to-br from-[#4FC3F7] to-[#0A2540] rounded-full blur-xl opacity-30"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-[#E2231A] to-[#0F5DA8] rounded-full blur-xl opacity-30"></div>
                 <img
                   src="https://images.unsplash.com/photo-1621905251918-48416bd8575a"
                   alt="Ingeniero"
                   className="relative w-48 h-48 rounded-full object-cover mx-auto ring-4 ring-white shadow-xl"
                 />
               </div>
-              <h3 className="text-xl font-bold text-[#0A2540] mb-2">
+              <h3 className="text-xl font-bold text-[#0F5DA8] mb-2">
                 Ingenieros Certificados
               </h3>
               <p className="text-gray-600">
@@ -213,14 +213,14 @@ const SobreNosotros = () => {
 
             <div className="text-center">
               <div className="relative mb-6 inline-block">
-                <div className="absolute inset-0 bg-gradient-to-br from-[#4FC3F7] to-[#0A2540] rounded-full blur-xl opacity-30"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-[#E2231A] to-[#0F5DA8] rounded-full blur-xl opacity-30"></div>
                 <img
                   src="https://images.unsplash.com/photo-1550041473-d296a3a8a18a"
                   alt="Técnicos"
                   className="relative w-48 h-48 rounded-full object-cover mx-auto ring-4 ring-white shadow-xl"
                 />
               </div>
-              <h3 className="text-xl font-bold text-[#0A2540] mb-2">
+              <h3 className="text-xl font-bold text-[#0F5DA8] mb-2">
                 Técnicos Especializados
               </h3>
               <p className="text-gray-600">
@@ -230,14 +230,14 @@ const SobreNosotros = () => {
 
             <div className="text-center">
               <div className="relative mb-6 inline-block">
-                <div className="absolute inset-0 bg-gradient-to-br from-[#4FC3F7] to-[#0A2540] rounded-full blur-xl opacity-30"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-[#E2231A] to-[#0F5DA8] rounded-full blur-xl opacity-30"></div>
                 <img
                   src="https://images.unsplash.com/photo-1604754742629-3e5728249d73"
                   alt="Soporte"
                   className="relative w-48 h-48 rounded-full object-cover mx-auto ring-4 ring-white shadow-xl"
                 />
               </div>
-              <h3 className="text-xl font-bold text-[#0A2540] mb-2">
+              <h3 className="text-xl font-bold text-[#0F5DA8] mb-2">
                 Servicio al Cliente
               </h3>
               <p className="text-gray-600">

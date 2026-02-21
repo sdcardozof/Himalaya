@@ -28,10 +28,10 @@ const Proyectos = () => {
       <WhatsAppButton />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 bg-gradient-to-br from-[#F4F6F8] via-white to-[#F4F6F8]">
+      <section className="pt-32 pb-16 bg-gradient-to-br from-[#C9D2DC] via-white to-[#C9D2DC]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-bold text-[#0A2540] mb-6">
+            <h1 className="text-5xl md:text-6xl font-bold text-[#0F5DA8] mb-6">
               Nuestros Proyectos
             </h1>
             <p className="text-xl text-gray-600">
@@ -54,8 +54,8 @@ const Proyectos = () => {
                   variant={filter === category.id ? "default" : "outline"}
                   className={`${
                     filter === category.id
-                      ? "bg-gradient-to-r from-[#4FC3F7] to-[#0A2540] text-white"
-                      : "border-2 border-[#0A2540] text-[#0A2540] hover:bg-[#F4F6F8]"
+                      ? "bg-gradient-to-r from-[#E2231A] to-[#0F5DA8] text-white"
+                      : "border-2 border-[#0F5DA8] text-[#0F5DA8] hover:bg-[#C9D2DC]"
                   } font-medium px-6`}
                 >
                   <Icon size={18} className="mr-2" />
@@ -74,7 +74,7 @@ const Proyectos = () => {
             {filteredProjects.map((project) => (
               <Card
                 key={project.id}
-                className="group overflow-hidden border-2 border-gray-100 hover:border-[#4FC3F7] hover:shadow-2xl transition-all duration-300"
+                className="group overflow-hidden border-2 border-gray-100 hover:border-[#E2231A] hover:shadow-2xl transition-all duration-300"
               >
                 <div className="relative h-64 overflow-hidden">
                   <img
@@ -83,11 +83,11 @@ const Proyectos = () => {
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute top-4 right-4">
-                    <span className="bg-white/95 backdrop-blur-sm text-[#0A2540] px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
+                    <span className="bg-white/95 backdrop-blur-sm text-[#0F5DA8] px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
                       {project.category}
                     </span>
                   </div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#0A2540]/90 via-[#0A2540]/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0F5DA8]/90 via-[#0F5DA8]/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                     <div className="text-white">
                       <p className="text-sm font-medium mb-1">Año {project.year}</p>
                       <p className="text-xs opacity-90">Ver detalles del proyecto</p>
@@ -95,17 +95,17 @@ const Proyectos = () => {
                   </div>
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="text-2xl font-bold text-[#0A2540] mb-2">
+                  <h3 className="text-2xl font-bold text-[#0F5DA8] mb-2">
                     {project.title}
                   </h3>
                   <p className="text-gray-600 mb-4">{project.description}</p>
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-[#4FC3F7] font-medium">
+                    <span className="text-sm text-[#E2231A] font-medium">
                       {project.year}
                     </span>
                     <Button
                       size="sm"
-                      className="bg-gradient-to-r from-[#4FC3F7] to-[#0A2540] hover:opacity-90 text-white"
+                      className="bg-gradient-to-r from-[#E2231A] to-[#0F5DA8] hover:opacity-90 text-white"
                     >
                       Ver Detalles
                     </Button>
@@ -126,7 +126,7 @@ const Proyectos = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-gradient-to-r from-[#0A2540] to-[#4FC3F7] text-white">
+      <section className="py-20 bg-gradient-to-r from-[#0F5DA8] to-[#E2231A] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>
@@ -152,7 +152,7 @@ const Proyectos = () => {
       {/* CTA Section */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold text-[#0A2540] mb-6">
+          <h2 className="text-4xl font-bold text-[#0F5DA8] mb-6">
             ¿Listo para su Próximo Proyecto?
           </h2>
           <p className="text-xl text-gray-600 mb-8">
@@ -161,7 +161,7 @@ const Proyectos = () => {
           <Button
             asChild
             size="lg"
-            className="bg-gradient-to-r from-[#4FC3F7] to-[#0A2540] hover:opacity-90 text-white font-semibold px-8"
+            className="bg-gradient-to-r from-[#E2231A] to-[#0F5DA8] hover:opacity-90 text-white font-semibold px-8"
           >
             <a href="/contacto">Solicitar Cotización</a>
           </Button>
