@@ -11,11 +11,18 @@ Crear un sitio web moderno, profesional y responsivo para Himalaya HVAC, enfocad
 - **Estilo**: Tailwind CSS
 - **Tipografía**: Space Grotesk (títulos), Inter (cuerpo)
 
-## Paleta de Colores
-- Azul profundo: #0A2540
-- Azul hielo: #4FC3F7
-- Blanco: #FFFFFF
-- Gris claro: #F4F6F8
+## Paleta de Colores (Actualizada)
+Basada en el logo oficial de Himalaya HVAC:
+- **Azul principal**: #0F5DA8 (HVAC - frío/evaporación) - Corporativo industrial
+- **Rojo acento**: #E2231A (calor/energía) - Intenso técnico
+- **Gris secundario**: #C9D2DC (sombras y backgrounds suaves)
+- **Blanco**: #FFFFFF
+- **Gris oscuro**: #1A1A1A
+
+## Tipografía
+- **Fuente principal**: Montserrat (sans-serif geométrica técnica)
+- **Títulos**: Montserrat Bold/SemiBold (peso 700-600)
+- **Cuerpo**: Montserrat Regular/Medium (peso 400-500)
 
 ## User Personas
 1. **Cliente Residencial**: Propietario de vivienda buscando consultoría o diseño de sistemas HVAC eficientes
