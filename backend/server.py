@@ -37,6 +37,25 @@ class StatusCheck(BaseModel):
 class StatusCheckCreate(BaseModel):
     client_name: str
 
+class ContactMessage(BaseModel):
+    model_config = ConfigDict(extra="ignore")
+    
+    id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    name: str
+    email: str
+    phone: str
+    service: str = ""
+    message: str
+    status: str = "new"  # new, read, responded
+    created_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+
+class ContactMessageCreate(BaseModel):
+    name: str
+    email: str
+    phone: str
+    service: str = ""
+    message: str
+
 # Add your routes to the router instead of directly to app
 @api_router.get("/")
 async def root():
@@ -65,6 +84,34 @@ async def get_status_checks():
             check['timestamp'] = datetime.fromisoformat(check['timestamp'])
     
     return status_checks
+
+# Contact endpoints
+@api_router.post("/contact", response_model=ContactMessage)
+async def create_contact_message(input: ContactMessageCreate):
+    contact_dict = input.model_dump()
+    contact_obj = ContactMessage(**contact_dict)
+    
+    # Convert to dict and serialize datetime to ISO string for MongoDB
+    doc = contact_obj.model_dump()
+    doc['created_at'] = doc['created_at'].isoformat()
+    
+    _ = await db.contact_messages.insert_one(doc)
+    
+    logger.info(f"New contact message received from {contact_obj.name} ({contact_obj.email})")
+    
+    return contact_obj
+
+@api_router.get("/contact", response_model=List[ContactMessage])
+async def get_contact_messages():
+    # Exclude MongoDB's _id field from the query results
+    messages = await db.contact_messages.find({}, {"_id": 0}).sort("created_at", -1).to_list(100)
+    
+    # Convert ISO string timestamps back to datetime objects
+    for msg in messages:
+        if isinstance(msg['created_at'], str):
+            msg['created_at'] = datetime.fromisoformat(msg['created_at'])
+    
+    return messages
 
 # Include the router in the main app
 app.include_router(api_router)
