@@ -42,23 +42,25 @@ const Contacto = () => {
     setIsSubmitting(true);
 
     try {
-      // Simulate API call - Replace with actual backend call later
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+      const response = await axios.post(`${API}/contact`, formData);
       
-      toast.success("¡Mensaje enviado exitosamente!", {
-        description: "Nos pondremos en contacto contigo pronto."
-      });
-      
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        service: "",
-        message: ""
-      });
+      if (response.status === 200) {
+        toast.success("¡Mensaje enviado exitosamente!", {
+          description: "Nos pondremos en contacto contigo pronto."
+        });
+        
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          service: "",
+          message: ""
+        });
+      }
     } catch (error) {
+      console.error("Error al enviar mensaje:", error);
       toast.error("Error al enviar el mensaje", {
-        description: "Por favor, inténtalo de nuevo."
+        description: "Por favor, inténtalo de nuevo más tarde."
       });
     } finally {
       setIsSubmitting(false);
