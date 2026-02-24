@@ -35,41 +35,12 @@ export const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group">
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-[#0F5DA8] to-[#E2231A] rounded-lg blur-sm opacity-50 group-hover:opacity-75 transition-opacity"></div>
-              <div className="relative bg-gradient-to-br from-[#0F5DA8] to-[#E2231A] p-2 rounded-lg">
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M16 4L8 8V16C8 21 12 24 16 28C20 24 24 21 24 16V8L16 4Z"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M16 12V20M12 16H20"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                  />
-                </svg>
-              </div>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-xl font-bold text-[#0F5DA8] tracking-tight">
-                Himalaya HVAC
-              </span>
-              <span className="text-xs text-[#E2231A] font-medium -mt-1">
-                Soluciones de Clima con Precisión
-              </span>
-            </div>
+          <Link to="/" className="flex items-center group">
+            <img 
+              src="/images/logo-horizontal.png" 
+              alt="Himalaya HVAC" 
+              className="h-12 w-auto transition-transform duration-300 group-hover:scale-105"
+            />
           </Link>
 
           {/* Desktop Navigation */}
