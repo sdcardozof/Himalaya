@@ -9,35 +9,13 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="bg-gradient-to-br from-[#E2231A] to-[#0F5DA8] p-2 rounded-lg">
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 32 32"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M16 4L8 8V16C8 21 12 24 16 28C20 24 24 21 24 16V8L16 4Z"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M16 12V20M12 16H20"
-                    stroke="white"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                  />
-                </svg>
-              </div>
-              <div>
-                <div className="text-lg font-bold">Himalaya HVAC</div>
-                <div className="text-xs text-[#E2231A]">Soluciones de Clima con Precisión</div>
-              </div>
-            </div>
+            <Link to="/" className="inline-block mb-4">
+              <img 
+                src="/images/logo-horizontal.png" 
+                alt="Himalaya HVAC" 
+                className="h-10 w-auto"
+              />
+            </Link>
             <p className="text-sm text-gray-300 mb-4">
               Líderes en consultoría y diseño de sistemas HVAC con ingeniería de precisión y servicio excepcional.
             </p>
@@ -74,11 +52,6 @@ export const Footer = () => {
               <li>
                 <Link to="/sobre-nosotros" className="text-sm text-gray-300 hover:text-[#E2231A] transition-colors">
                   Sobre Nosotros
-                </Link>
-              </li>
-              <li>
-                <Link to="/proyectos" className="text-sm text-gray-300 hover:text-[#E2231A] transition-colors">
-                  Proyectos
                 </Link>
               </li>
               <li>
