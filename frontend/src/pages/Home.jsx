@@ -210,7 +210,7 @@ const Home = () => {
               variant="outline"
               className="border-2 border-white text-white hover:bg-white hover:text-[#0F5DA8] font-semibold px-8 py-6 text-lg"
             >
-              <Link to="/proyectos">Ver Proyectos Realizados</Link>
+              <Link to="/servicios">Conocer Nuestros Servicios</Link>
             </Button>
           </div>
         </div>
