@@ -20,7 +20,6 @@ export const Navbar = () => {
     { name: "Inicio", path: "/" },
     { name: "Servicios", path: "/servicios" },
     { name: "Sobre Nosotros", path: "/sobre-nosotros" },
-    { name: "Proyectos", path: "/proyectos" },
     { name: "Contacto", path: "/contacto" }
   ];
 
